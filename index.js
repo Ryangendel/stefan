@@ -3,7 +3,7 @@ function Spa() {
   const [balance123, setBalance123] = React.useState(0);  
 
   function changeBalance (moneyDeposited){
-    console.log("HIT ME")
+    console.log("YOU ARE IN THE PARENT COMPONENT")
     let newBalance= balance123 + moneyDeposited
     setBalance123(newBalance)
   }
